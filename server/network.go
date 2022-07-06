@@ -32,7 +32,8 @@ const (
 		"health-check-frequency":"2s",
 		"api-admin-enabled":true,
 		"api-ipcs-enabled":true,
-		"index-enabled":true
+		"index-enabled":true,
+		"min-stake-duration":"1m"
   }`
 )
 
