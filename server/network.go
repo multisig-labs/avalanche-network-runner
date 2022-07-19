@@ -37,6 +37,20 @@ const (
   }`
 )
 
+// NOTE Couldnt get these to work consistently, so I
+// patched avalanchego instead to always give 10% reward
+// "stake-minting-period": "720h",
+// "max-stake-duration":"720h",
+// "stake-min-consumption-rate": 100000,
+// "stake-max-consumption-rate": 990000,
+// "stake-supply-cap": 900000000000000000
+// "max-stake-duration":"720h",
+// "stake-minting-period": "720h",
+// 		"stake-supply-cap": 8000000000000000000
+// 720MAvax		"stake-supply-cap": 720000000000000000
+// "max-stake-duration":"60m",
+// "stake-minting-period": "61m",
+
 var ignoreFields = map[string]struct{}{
 	"public-ip":    {},
 	"http-port":    {},
